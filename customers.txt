@@ -1,0 +1,1 @@
+mongoimport --db mongo-vidly --collection customers --drop --file customers-data.json --jsonArray

@@ -1,0 +1,1 @@
+mongoimport --db mongo-vidly --collection genres --drop --file genres-data.json --jsonArray
