@@ -40,7 +40,7 @@ const genres = []
  //createGenre();
 
       router.get('/', async (req, res) => {
-        throw new Error('Could not get the genres.');
+        //throw new Error('Could not get the genres.');
         const genres = await Genre.find().sort('name');
         res.send(genres);
       });
@@ -83,9 +83,9 @@ const genres = []
  });*/
  
  router.get('/:id', async (req, res) =>  {
-  const genre = Genre.findById(req.params.id);
+  const genre = await Genre.findById(req.params.id);
    /*find in an array*/ //const genre = genres.find(c => c.id === parseInt(req.params.id));
-   if (!genre) res.status(404).send('genre with given id was not found');
+   if (!genre) return res.status(404).send('genre with given id was not found');
    res.send(genre);
  });
 
