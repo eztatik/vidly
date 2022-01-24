@@ -1,3 +1,4 @@
+const validateObjectId = require('../middleware/validateObjectId');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
 const { Genre, validate } = require('../Models/genre');
@@ -82,7 +83,8 @@ const genres = []
    res.send(req.);
  });*/
  
- router.get('/:id', async (req, res) =>  {
+ router.get('/:id', validateObjectId, async (req, res) =>  {
+   
   const genre = await Genre.findById(req.params.id);
    /*find in an array*/ //const genre = genres.find(c => c.id === parseInt(req.params.id));
    if (!genre) return res.status(404).send('genre with given id was not found');
