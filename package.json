@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --runInBand --detectOpenHandles --verbose --coverage"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "joi": "^13.1.0",
     "joi-objectid": "^4.0.2",
     "jsonwebtoken": "^8.5.1",
+    "leaked-handles": "^5.2.0",
     "lodash": "^4.17.21",
     "mongoose": "^5.13.14",
     "nodemon": "^2.0.15",

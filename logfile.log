@@ -416,3 +416,539 @@
 {"message":"Genre validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","stack":"ValidationError: Genre validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).\n    at model.Object.<anonymous>.Document.invalidate (/Users/jhonnatanromero/Documents/node-course/vidly/node_modules/mongoose/lib/document.js:2782:32)\n    at /Users/jhonnatanromero/Documents/node-course/vidly/node_modules/mongoose/lib/document.js:2574:17\n    at /Users/jhonnatanromero/Documents/node-course/vidly/node_modules/mongoose/lib/schematype.js:1273:9\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","errors":{"name":{"properties":{"message":"Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","type":"maxlength","maxlength":50,"path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},"kind":"maxlength","path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}},"_message":"Genre validation failed","level":"error","timestamp":"2022-01-24T05:01:54.906Z"}
 {"level":"info","message":"listening on port 3000...","timestamp":"2022-01-24T05:02:59.421Z"}
 {"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-24T05:02:59.434Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:25:13.470Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:25:13.486Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:54:09.569Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:54:09.581Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:54:20.772Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:54:20.782Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:55:09.671Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:55:09.683Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:55:42.180Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:55:42.190Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:56:21.680Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:56:21.691Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:56:59.559Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:56:59.572Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:58:06.950Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:58:06.962Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T03:59:03.240Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T03:59:03.251Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:32:20.193Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:32:20.222Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:33:48.937Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:33:48.950Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:34:04.846Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:34:04.857Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:34:55.106Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:34:55.121Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:35:05.556Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:35:05.564Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:35:33.732Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:35:33.744Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:41:56.332Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:41:56.347Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:43:15.898Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:43:15.907Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:48:33.817Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:48:33.832Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:48:52.211Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:48:52.229Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:49:20.845Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:49:20.857Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:49:47.138Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:49:47.151Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:50:17.632Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:50:17.641Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:51:34.398Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:51:34.412Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:51:58.139Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:51:58.153Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:52:39.885Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:52:39.900Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:52:50.998Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:52:51.008Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:53:05.211Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:53:05.223Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:54:34.093Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:54:34.104Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-25T04:55:14.907Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-25T04:55:14.916Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:47:11.686Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:47:11.701Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:48:43.877Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:48:43.889Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:49:19.766Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:49:19.795Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:49:39.321Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:49:39.331Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:51:26.240Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:51:26.249Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:51:26.270Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:51:26.308Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:59:09.027Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:59:09.034Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T03:59:09.041Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T03:59:09.053Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:02:43.195Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:02:43.201Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:02:43.208Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:02:43.221Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:04:40.552Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:04:40.565Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:04:40.573Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:04:40.607Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:05:15.103Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T04:05:15.111Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:05:23.603Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:05:23.616Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:05:23.614Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:05:23.657Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:06:44.857Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:06:44.861Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:06:44.871Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:06:44.909Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:08:53.893Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:08:53.898Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:08:53.906Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:08:53.939Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:10:06.832Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T04:10:06.840Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:10:13.653Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:10:13.659Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:10:13.666Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:10:13.679Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:10:49.314Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T04:10:49.322Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:11:32.695Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:11:32.705Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:11:32.719Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:11:32.753Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:18:02.215Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:18:02.228Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:18:02.225Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:18:02.268Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:20:07.085Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T04:20:07.093Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:20:14.975Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T04:20:14.983Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:20:27.383Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:20:27.387Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:20:27.392Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:20:27.425Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:22:28.462Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:22:28.469Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:22:28.475Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:22:28.489Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:28:58.473Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T04:28:58.485Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:29:07.787Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:29:07.793Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:29:07.817Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:29:07.826Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:29:52.701Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:29:52.705Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:29:52.715Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:29:52.745Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:30:09.050Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:30:09.067Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:30:36.051Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:30:36.054Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:30:36.064Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:30:36.095Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:38:11.831Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:38:11.838Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:38:42.737Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:38:42.740Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:38:42.747Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:38:42.781Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:40:46.790Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:40:46.804Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:41:07.524Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:41:07.530Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:41:07.536Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:41:07.549Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:41:35.549Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:41:35.552Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:41:35.562Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:41:35.596Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:41:52.872Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:41:52.882Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:41:52.885Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:41:52.923Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:44:14.779Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:44:14.785Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:44:14.793Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:44:14.804Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:44:40.413Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:44:40.416Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:44:40.426Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:44:40.457Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:45:06.348Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:45:06.356Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:45:06.364Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:45:06.388Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:45:24.642Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:45:24.646Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:45:24.652Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:45:24.687Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:46:04.235Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:46:04.257Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:46:20.856Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:46:20.860Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:46:20.870Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:46:20.902Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:46:36.445Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:46:36.469Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:46:36.481Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:46:36.494Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:53:16.290Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:53:16.297Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:53:16.304Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:53:16.345Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:53:35.624Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:53:35.630Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:53:35.637Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:53:35.650Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:54:29.162Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:54:29.166Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:54:29.171Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:54:29.208Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:10.127Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:10.140Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:10.145Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:10.185Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:31.990Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:31.993Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:32.003Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:32.034Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:55.050Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:55.060Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:55.092Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:55.116Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:57.585Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:57.591Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:55:57.597Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:55:57.608Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:00.693Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:00.703Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:00.701Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:00.740Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:02.976Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:02.987Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:03.022Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:03.043Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:06.716Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:06.724Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:06.731Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:06.739Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:08.913Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:08.922Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:08.944Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:08.978Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:11.410Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:11.420Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:56:11.443Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:56:11.475Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:58:30.571Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:58:30.580Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T04:58:41.749Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T04:58:41.759Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:03:01.158Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T05:03:01.170Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:03:23.508Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:03:23.517Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:08:39.307Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:08:39.321Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:09:01.086Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:09:01.094Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:09:01.112Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:09:01.114Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:12:51.244Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:12:51.251Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:12:51.258Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:12:51.272Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:13:23.233Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:13:23.237Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:13:23.243Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:13:23.276Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:13:43.176Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T05:13:43.184Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:14:16.556Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:14:16.560Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:14:16.565Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:14:16.601Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:14:36.467Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:14:36.478Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:14:36.478Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:14:36.529Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:14:58.164Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:14:58.168Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:14:58.177Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:14:58.216Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:10.610Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:10.613Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:10.623Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:10.655Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:19.134Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:19.143Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:19.150Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:19.157Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:32.569Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:32.581Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:32.588Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:32.592Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:56.494Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:56.502Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:56.508Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:56.521Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:58.571Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:58.593Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:15:58.594Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:15:58.600Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:19:24.099Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:19:24.128Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:19:33.259Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:19:33.263Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:19:33.273Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:19:33.303Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:19:46.180Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:19:46.189Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:19:46.196Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:19:46.203Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:20:20.207Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T05:20:20.215Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:22:03.365Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T05:22:03.373Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:22:10.006Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:22:10.009Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:22:10.020Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:22:10.039Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:23:08.943Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:23:08.956Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:23:08.966Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:23:08.989Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:23:15.248Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:23:15.257Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:23:15.273Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:23:15.301Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:23:36.116Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:23:36.123Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:23:36.129Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:23:36.143Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:24:41.518Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:24:41.527Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:24:41.532Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:24:41.570Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:25:28.441Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:25:28.446Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:25:28.455Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:25:28.477Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:36:58.802Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:36:58.815Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:36:58.818Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:36:58.850Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:42:16.885Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:42:16.900Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:42:16.907Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:42:16.927Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:49:32.099Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:49:32.109Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:49:32.115Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:49:32.122Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:50:08.977Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:50:08.984Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:50:08.990Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:50:09.001Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:51:26.338Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-26T05:51:26.346Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:51:51.839Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:51:51.848Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:51:51.855Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:51:51.864Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:53:23.349Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:53:23.356Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:53:23.362Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:53:23.374Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:53:43.695Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:53:43.702Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:53:43.709Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:53:43.722Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:55:55.973Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-26T05:55:55.981Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:55:55.987Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-26T05:55:56.008Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:30:49.424Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:30:49.457Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:30:49.457Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:30:49.468Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:38:09.255Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly...","timestamp":"2022-01-28T02:38:09.266Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:38:25.644Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:38:25.651Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:38:25.657Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:38:25.670Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:39:57.355Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:39:57.362Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:39:57.372Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:39:57.384Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:45:38.899Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:45:38.927Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:45:38.931Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:45:38.969Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:46:40.551Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:46:40.573Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:46:40.575Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:46:40.609Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:47:21.293Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:47:21.319Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:47:21.323Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:47:21.362Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:47:32.859Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:47:32.884Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:47:32.887Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:47:32.924Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:52:05.252Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:52:05.278Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:52:05.282Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:52:05.319Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:54:18.361Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:54:18.376Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:54:18.741Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:54:18.764Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:55:04.268Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:55:04.286Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:55:04.629Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:55:04.652Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:55:39.638Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:55:39.648Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:55:39.932Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:55:39.944Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:55:56.938Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:55:56.950Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:55:57.234Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:55:57.250Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:56:36.033Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:56:36.039Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:56:36.045Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:56:36.057Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:56:48.948Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:56:48.951Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:56:48.961Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:56:48.975Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:56:58.569Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:56:58.586Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:56:58.591Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:56:58.625Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:57:08.143Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:57:08.161Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:57:08.165Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:57:08.168Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:57:14.733Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:57:14.742Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:57:14.768Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:57:14.786Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:59:04.226Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:59:04.255Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T02:59:04.559Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T02:59:04.571Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T03:19:15.252Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T03:19:15.305Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T03:19:15.590Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T03:19:15.602Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T03:56:22.158Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T03:56:22.186Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T03:56:22.515Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T03:56:22.528Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:02:51.460Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:02:51.485Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:02:51.792Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:02:51.830Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:02:59.961Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:02:59.982Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:03:00.289Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:03:00.339Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:03:32.506Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:03:32.532Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:03:32.776Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:03:32.801Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:04:37.850Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:04:37.875Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:04:38.146Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:04:38.160Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:05:15.682Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:05:15.718Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T04:05:16.009Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T04:05:16.079Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:00:08.334Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:00:08.363Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:00:08.621Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:00:08.634Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:03:27.759Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:03:27.844Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:03:28.109Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:03:28.122Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:03:48.285Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:03:48.309Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:03:48.575Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:03:48.591Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:05:02.961Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:05:02.987Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:05:03.242Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:05:03.258Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:27.423Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:27.520Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:27.771Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:27.783Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:31.706Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:31.729Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:32.004Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:32.126Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:44.541Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:44.630Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:44.938Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:44.963Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:48.810Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:48.824Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:49.126Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:49.148Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:52.388Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:52.403Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:53.164Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:53.184Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:58.663Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:58.679Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:06:58.982Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:06:59.004Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:07:10.911Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:07:11.120Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:07:11.460Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:07:11.477Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:08:31.973Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:08:31.989Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:08:32.292Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:08:32.316Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:24:57.296Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:24:57.329Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-28T06:24:58.316Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-28T06:24:58.351Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:41:44.923Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:41:44.942Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:41:45.293Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:41:45.315Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:43:44.912Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:43:44.928Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:43:45.309Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:43:45.328Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:54:15.260Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:54:15.279Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:54:15.806Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:54:15.830Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:54:23.750Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:54:23.765Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T15:54:24.094Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T15:54:24.117Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T16:00:35.877Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T16:00:35.892Z"}
+{"level":"info","message":"listening on port 3000...","timestamp":"2022-01-29T16:00:36.230Z"}
+{"level":"info","message":"connected to mongodb://localhost/vidly_tests...","timestamp":"2022-01-29T16:00:36.252Z"}
