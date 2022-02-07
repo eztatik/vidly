@@ -4,28 +4,36 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --runInBand --detectOpenHandles --verbose --coverage"
+    "test": "jest --watchAll --runInBand --detectOpenHandles --verbose --coverage",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.13.1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
     "config": "^3.3.6",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",
     "gitignore": "^0.7.0",
+    "helmet": "^5.0.2",
     "joi": "^13.1.0",
     "joi-objectid": "^4.0.2",
     "jsonwebtoken": "^8.5.1",
     "leaked-handles": "^5.2.0",
     "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "mongoose": "^5.13.14",
     "nodemon": "^2.0.15",
     "winston": "^2.4.5",
     "winston-mongodb": "^3.0.0"
   },
   "devDependencies": {
+    "@types/joi": "^17.2.3",
     "@types/mongoose": "^5.11.97",
     "@types/winston": "^2.4.4",
     "jest": "^27.4.7",
